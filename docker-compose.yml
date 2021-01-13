@@ -1,0 +1,6 @@
+web:
+  image: nginx
+  volumes:
+    - ./dist:/usr/share/nginx/html
+  ports:
+    - "8081:80"
